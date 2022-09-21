@@ -1,0 +1,140 @@
+.movies-container {
+  margin-top: 28px;
+  padding: 144px 42px 64px 42px;
+  position: relative;
+  background-color: #eff3f8;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  border-radius: 5px;
+  box-shadow: 0px 0px 8px 4px rgb(194 191 229 / 34%);
+}
+.movie-wrapper {
+  height: 180px;
+  display: flex;
+  flex-direction: column;
+  width: 320px;
+  max-width: 100%;
+  background-color: #fff;
+  padding: 12px;
+  border-radius: 4px;
+  margin: 12px 12px 34px 12px;
+  position: relative;
+}
+.movie-info {
+  position: relative;
+  display: flex;
+}
+.movie-image {
+  top: -28px;
+  position: relative;
+}
+.movie-image img {
+  width: 110px;
+  height: 140px;
+}
+.movie-text {
+  display: flex;
+  flex-direction: column;
+  padding-left: 16px;
+  height: 110px;
+  justify-content: flex-end;
+}
+.movie-title {
+  font-weight: bold;
+  font-size: 14px;
+  position: relative;
+  top: -14px;
+}
+.added-by {
+  position: relative;
+  top: -14px;
+}
+.added-by span:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+.added-by,
+.movie-description {
+  font-size: 12px;
+  color: #828380;
+}
+.movie-description {
+  overflow: hidden;
+  height: 59px;
+  display: flex;
+  align-items: flex-end;
+}
+.movie-description span {
+  display: -webkit-box;
+  max-width: 200px;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+.movie-likes {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 40px;
+  border-top: 1px solid #ebeded;
+  color: #7f8182;
+}
+.movie-minus-likes {
+  display: flex;
+  align-items: center;
+}
+.movie-plus-likes {
+  display: flex;
+  align-items: center;
+}
+.thumb_up,
+.thumb_down {
+  margin-right: 12px;
+  cursor: pointer;
+}
+.thumb_up:hover {
+  color: green;
+}
+.thumb_down:hover {
+  color: red;
+}
+.search-for-movies {
+  position: absolute;
+  top: 36px;
+}
+.searchSymbol {
+  position: absolute;
+  color: #cfd1d1;
+  top: 7px;
+  left: 5px;
+}
+.movie-search {
+  border-radius: 10px;
+  outline: none;
+  border: 1px solid #cfd1d1;
+  box-sizing: border-box;
+  font-size: 16px;
+  height: 36px;
+  padding: 2px 10px 2px 31px;
+}
+.sort-movies {
+  position: absolute;
+  right: 42px;
+  top: 36px;
+}
+.select-sort-method {
+  font-size: 16px;
+  outline: none;
+  border-radius: 10px;
+  border: 1px solid #cfd1d1;
+  height: 36px;
+  cursor: pointer;
+  padding: 0 8px;
+}
+.movie-date {
+  position: absolute;
+  top: 140px;
+  font-size: 14px;
+  color: #828380;
+}

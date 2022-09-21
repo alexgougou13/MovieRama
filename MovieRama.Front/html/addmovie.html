@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/x-icon" href="/images/favicon.ico" />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Symbols+Outlined"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400&display=swap"
+      rel="stylesheet"
+    />
+    <title>MovieRama</title>
+    <link rel="stylesheet" href="/css/addmovie.css" />
+    <link rel="stylesheet" href="/css/my-header-footer.css" />
+    <script type="module" src="/js/my-header-footer.js"></script>
+    <script type="module" src="/js/addmovie.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  </head>
+  <body>
+    <my-header></my-header>
+    <div id="loading"></div>
+    <div class="main-container">
+      <div class="site-banner">
+        <div class="site-title">
+          <h3>MovieRama</h3>
+          <span>Search and rate movies</span>
+        </div>
+      </div>
+      <div class="add-movie-container">
+        <div class="add-movie-container-wrapper">
+          <div class="title-wrapper">
+            <h3>Add Movie</h3>
+            <span>Fill the information to add a movie !</span>
+          </div>
+          <div class="movie-form">
+            <div class="input-wrapper">
+              <span class="material-symbols-outlined inputIcon">
+                movie_filter
+              </span>
+              <input
+                type="text"
+                class="basic-input"
+                id="title"
+                placeholder="Movie Title"
+              />
+            </div>
+            <div class="input-wrapper">
+              <span class="material-symbols-outlined inputIcon"> link </span>
+              <input
+                type="text"
+                class="basic-input"
+                id="image"
+                placeholder="Image Url"
+              />
+            </div>
+            <div class="input-wrapper">
+              <span class="material-symbols-outlined inputIconTextArea">
+                description
+              </span>
+              <textarea
+                class="basic-input"
+                id="description"
+                placeholder="Description of the movie"
+              ></textarea>
+            </div>
+            <a class="primary-button">Submit</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="/images/favicon.ico" />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Symbols+Outlined"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400&display=swap"
+      rel="stylesheet"
+    />
+    <title>MovieRama</title>
+    <link rel="stylesheet" href="/css/login-register.css" />
+    <link rel="stylesheet" href="/css/my-header-footer.css" />
+    <script type="module" src="/js/my-header-footer.js"></script>
+    <script type="module" src="/js/login.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  </head>
+</head>
+<body>
+    <my-header></my-header>
+    <div id="loading"></div>
+    <div class="main-container">
+      <div class="site-banner">
+        <div class="site-title">
+          <h3>MovieRama</h3>
+          <span>Search and rate movies</span>
+        </div>
+      </div>
+      <div class="basic-form">
+        <div class="form-wrapper">
+            <div class="form-header"></div>
+            <div class="form-body">
+                <h2>Login</h4>
+                <span>Please fill your details to log into your account.</span>
+                <div class="input-wrapper">
+                    <span class="material-symbols-outlined usernameIcon">
+                        person
+                    </span>
+                    <input class="form-input" id="username" placeholder="Username">
+                </div>    
+                <div class="input-wrapper">
+                    <span class="material-symbols-outlined passwordIcon">
+                        lock
+                        </span>
+                    <input class="form-input" type="password" id="password" placeholder="Password">
+                </div>   
+                <a class="primary-button">Login</a>       
+            </div>
+        </div> 
+      </div>
+    </div>
+</body>
+</html>
